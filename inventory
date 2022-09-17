@@ -2,3 +2,4 @@
 node1.adjclasses.int
 [dev]
 node2.adjclasses.int
+[test]
