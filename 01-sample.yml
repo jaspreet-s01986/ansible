@@ -4,3 +4,6 @@
     - name: Print Hello from Play1
       ansible.builtin.debug:
         msg: Hello from Play1
+    - name: Print the gateway for each host when defined
+  ansible.builtin.debug:
+    msg: System
