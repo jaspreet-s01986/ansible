@@ -2,5 +2,4 @@
   hosts: all
   tasks:
   - name: Run shell command
-    ansible.builtin.debug:
-      msg: printing task1 from play1
+    
