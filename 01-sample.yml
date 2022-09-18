@@ -3,7 +3,7 @@
   tasks:
   - name: Print the gateway for each host when defined
     ansible.builtin.debug:
-          msg: System
+      msg: System
 - name: Update web servers
   hosts: all
   remote_user: root
