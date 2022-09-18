@@ -6,6 +6,7 @@
       - Google
       - Apple
       - Meta
+    
   tasks:
     - name: task1 - printing global variables
       ansible.builtin.debug:
