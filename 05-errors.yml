@@ -5,6 +5,6 @@
     shell: ps -ef | grep java | grep -v grep
     register: OUT
     ignore_errors: yes
-  - name: Printing output of uptime
+  - name: Printing output
     debug:
       msg: "{{ OUT.stdout }}"
