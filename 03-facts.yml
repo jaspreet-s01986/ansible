@@ -1,6 +1,6 @@
 - name: Demo Facts
   hosts: all
   tasks:
-  - name: prining
+  - name: prining facts
     ansible.builtin.debug:
       msg: printing task1 from play1
