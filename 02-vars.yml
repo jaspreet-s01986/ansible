@@ -15,7 +15,7 @@
         msg: URL variable value is {{ URL }}
     - name: task - printing local variables
       ansible.builtin.debug:
-        msg: URL variable value is {{ URL }} and local variable value is {{ URL_LOCAL }}
+        msg: URL variable value is {{ URL }} and URL_LOCAL variable value is {{ URL_LOCAL }}
       vars:
         URL_LOCAL: local.google.com
         URL: task.google.com
