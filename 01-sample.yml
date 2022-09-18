@@ -1,6 +1,6 @@
 - name: play1
   hosts: all
   tasks:
-  - name: Print Hello from Play1
+    - name: Print Hello from Play1
     debug:
     msg: Hello from Play1
