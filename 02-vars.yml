@@ -4,7 +4,7 @@
     URL: google.com
   tasks:
     - name: printing variables
-      ansible.buildin.debug:
+      ansible.builtin.debug:
         msg: variable value is {{ URL }}
     - name: printing variables
       ansible.buildin.debug:
