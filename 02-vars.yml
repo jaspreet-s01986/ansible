@@ -10,4 +10,4 @@
       ansible.buildin.debug:
         msg: variable value is {{ URL }}
       vars:
-      
+        URL: 
