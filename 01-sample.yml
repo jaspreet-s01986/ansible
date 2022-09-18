@@ -12,4 +12,4 @@
   tasks:
   - name: task1 prining
     ansible.builtin.debug:
-      msg: printing task1 from play1
+      msg: printing task1 from play2
