@@ -4,7 +4,7 @@
   - name: Check if tomcat is running or not
     shell: ps -ef | grep java | grep -v grep
     register: OUT
-    ignore
+    ignore_errors: yes
   - name: Printing output of uptime
     debug:
       msg: "{{ OUT.stdout }}"
