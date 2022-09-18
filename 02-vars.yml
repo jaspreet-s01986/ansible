@@ -11,7 +11,7 @@
         msg: global variable value is {{ URL }} and local variable value is {{ URL_LOCAL }}
       vars:
         URL_LOCAL: local.google.com
-        
+        URL: 
     - name: task - printing undeclared or cli variables
       ansible.builtin.debug:
         msg: variable value is {{ CLI_URL }}
