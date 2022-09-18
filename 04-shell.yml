@@ -5,4 +5,5 @@
     shell: uptime
     register: OUT
   - name: Printing output of uptime
+    ansible.inbuilt.debug:
     
