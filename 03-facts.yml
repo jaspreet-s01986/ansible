@@ -1,7 +1,7 @@
 - name: Demo Facts
   hosts: all
   tasks:
-  - name: prining facts
+  - name: prining Distro
     ansible.builtin.debug:
       msg: "{{ ansible_distribution }}"
   - name: prining IP address
