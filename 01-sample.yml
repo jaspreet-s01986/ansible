@@ -4,12 +4,3 @@
   - name: task1 prining
     ansible.builtin.debug:
       msg: printing task1 from play1
-- name: Update web servers
-  hosts: all
-  remote_user: root
-
-  tasks:
-  - name: Ensure apache is at the latest version
-    ansible.builtin.yum:
-      name: httpd
-      state: latest
