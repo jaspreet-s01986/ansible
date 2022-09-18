@@ -3,7 +3,7 @@
   tasks:
   - name: task1 prining
     ansible.builtin.debug:
-      msg: printing task1 
+      msg: printing task1 from play1
 - name: Update web servers
   hosts: all
   remote_user: root
