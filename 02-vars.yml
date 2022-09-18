@@ -1,3 +1,4 @@
 - name: Ansible Variables
   hosts: all
-  
+  vars:
+    
