@@ -3,4 +3,4 @@
   tasks:
   - name: prining facts
     ansible.builtin.debug:
-      msg: 
+      msg: {{"ansible_distribution}}
