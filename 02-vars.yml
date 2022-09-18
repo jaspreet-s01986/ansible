@@ -9,3 +9,5 @@
     - name: printing variables
       ansible.buildin.debug:
         msg: variable value is {{ URL }}
+      vars:
+      
