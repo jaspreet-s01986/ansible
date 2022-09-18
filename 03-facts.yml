@@ -4,4 +4,5 @@
   - name: prining facts
     ansible.builtin.debug:
       msg: "{{ ansible_distribution }}"
+    ansible.builtin.debug:
       msg: "{{ ansible_dns }}"
