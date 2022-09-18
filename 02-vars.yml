@@ -8,7 +8,7 @@
       - Meta
     vars_prompt:
       - name: URL
-        prompt
+        prompt: Enter URL
   tasks:
     - name: task1 - printing global variables
       ansible.builtin.debug:
