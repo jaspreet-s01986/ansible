@@ -6,7 +6,7 @@
       - Google
       - Apple
       - Meta
-    vars_prompt:
+  vars_prompt:
       - name: URL
         prompt: Enter URL
   tasks:
