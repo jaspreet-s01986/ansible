@@ -1,4 +1,4 @@
-- name: Shell
+- name: Handling Errors
   hosts: all
   tasks:
   - name: Run shell command
