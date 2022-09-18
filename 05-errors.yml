@@ -1,7 +1,7 @@
 - name: Handling Errors
   hosts: all
   tasks:
-  - name: Check if 
+  - name: Check if tomcat is running or not
     shell: uptime
     register: OUT
   - name: Printing output of uptime
