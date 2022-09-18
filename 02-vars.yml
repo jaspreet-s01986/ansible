@@ -5,4 +5,4 @@
   task:
     - name: printing variables
       ansible.buildin.debug:
-        
+        msg: 
