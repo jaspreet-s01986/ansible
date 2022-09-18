@@ -18,4 +18,4 @@
         URL: task.google.com
     - name: task - printing undeclared or cli variables
       ansible.builtin.debug:
-        msg: variable value is {{ CLI_URL }}
+        msg: variable value is {{ ORGS }}
