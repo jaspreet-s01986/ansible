@@ -2,7 +2,7 @@
   hosts: all
   vars:
     URL: google.com
-  task:
+  tasks:
     - name: printing variables
       ansible.buildin.debug:
         msg: variable value is {{ URL }}
