@@ -6,4 +6,4 @@
         msg: Hello from Play1
     - name: Print the gateway for each host when defined
         ansible.builtin.debug:
-    msg: System
+          msg: System
