@@ -3,4 +3,4 @@
   tasks:
   - name: prining facts
     ansible.builtin.debug:
-      msg: printing task1 from play1
+      msg: 
