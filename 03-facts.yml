@@ -4,6 +4,6 @@
   - name: prining facts
     ansible.builtin.debug:
       msg: "{{ ansible_distribution }}"
-  - name: prining 
+  - name: prining IP address
     ansible.builtin.debug:
       msg: "{{ ansible_dns }}"
