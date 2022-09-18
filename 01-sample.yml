@@ -4,3 +4,6 @@
   - name: task1 prining
     ansible.builtin.debug:
       msg: printing task1 from play1
+  - name: task1 prining
+    ansible.builtin.debug:
+      msg: printing task1 from play1
