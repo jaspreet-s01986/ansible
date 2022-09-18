@@ -3,7 +3,7 @@
   vars:
     URL: google.com
   tasks:
-    - name: task1 - printing variables
+    - name: task1 - printing gvariables
       ansible.builtin.debug:
         msg: variable value is {{ URL }}
     - name: task - printing variables
