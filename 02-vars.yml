@@ -8,7 +8,7 @@
         msg: variable value is {{ URL }}
     - name: task - printing local variables
       ansible.builtin.debug:
-        msg: global variable value is {{ URL }}
+        msg: global variable value is {{ URL }} and local variable value is {{}}
       vars:
         URL_LOCAL: local.google.com
     - name: task - printing undeclared or cli variables
