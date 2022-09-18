@@ -13,4 +13,4 @@
         URL: local.google.com
     - name: task - printing undeclared or cli variables
       ansible.builtin.debug:
-        msg: variable value is {{ URL }}
+        msg: variable value is {{ CI_URL }}
