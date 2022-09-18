@@ -7,7 +7,8 @@
       - Apple
       - Meta
     vars_prompt:
-      - 
+      - name: URL
+        prompt
   tasks:
     - name: task1 - printing global variables
       ansible.builtin.debug:
