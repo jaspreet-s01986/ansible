@@ -2,7 +2,7 @@
   hosts: all
   vars:
     URL: google.com
-    SITES:
+    ORGS:
       - Google
       - Apple
       - Meta
