@@ -2,5 +2,5 @@
   hosts: all
   tasks:
     - name: Print Hello from Play1
-    debug:
+      debug:
     msg: Hello from Play1
