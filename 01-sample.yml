@@ -10,6 +10,6 @@
 - name: play2
   hosts: all
   tasks:
-  - name: task2 prining
+  - name: task1 prining
     ansible.builtin.debug:
       msg: printing task1 from play1
