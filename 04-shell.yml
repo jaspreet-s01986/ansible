@@ -4,4 +4,5 @@
   - name: Run shell command
     shell: uptime
     register: OUT
-  - name: 
+  - name: Printing output of uptime
+  
