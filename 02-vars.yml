@@ -6,7 +6,7 @@
     - name: task1 - printing variables
       ansible.builtin.debug:
         msg: variable value is {{ URL }}
-    - name: printing variables
+    - name: task - printing variables
       ansible.builtin.debug:
         msg: variable value is {{ URL }}
       vars:
