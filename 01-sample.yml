@@ -2,7 +2,7 @@
   hosts: all
   tasks:
   - name: Print the gateway for each host when defined
-        ansible.builtin.debug:
+    ansible.builtin.debug:
           msg: System
 - name: Update web servers
   hosts: all
