@@ -10,7 +10,7 @@
       ansible.builtin.debug:
         msg: variable value is {{ URL }}
       vars:
-        URL_Local: local.google.com
+        URL_LOCAL: local.google.com
     - name: task - printing undeclared or cli variables
       ansible.builtin.debug:
         msg: variable value is {{ CLI_URL }}
