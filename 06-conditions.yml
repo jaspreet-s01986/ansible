@@ -1,0 +1,11 @@
+- name: Condition Play
+  hosts: all
+  tasks:
+  - name: Run task only for CentOS machines
+    ansible.builtin.debug:
+      msg: This is CentOS machine
+    when: {{ansible_distribution}} == "CentOS"
+  - name: Run task only for Ubuntu machines
+    ansible.builtin.debug:
+      msg: This is Ubuntu machine
+    when: {{ansible_distribution}} == "Ubuntu"
